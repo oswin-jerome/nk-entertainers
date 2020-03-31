@@ -1,0 +1,50 @@
+#homePage{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    .bg{
+        position: absolute;
+        height: 100%;
+        left: -550px;
+        z-index: -99;
+    }
+
+    h1{
+        color: #fff;
+    }
+
+    .content{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 50px;
+        color: #fff;
+        text-align: center;
+
+        .left{
+            padding-bottom: 50px;
+
+            h3{
+                font-size: 20px;
+                opacity: 0.8;
+            }
+
+            h1{
+                font-size: 50px;
+                margin-top: 10px;
+            }
+
+            .call-to-action{
+                background: linear-gradient(#FF362E,#E8290B);
+                padding: 10px 20px;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                display: block;
+                margin-top: 30px;
+            }
+        }
+    }
+    
+}
