@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nk-entertainers/static/css/main.834f5f03.chunk.css",
+    "main.js": "/nk-entertainers/static/js/main.75fcf7d6.chunk.js",
+    "main.js.map": "/nk-entertainers/static/js/main.75fcf7d6.chunk.js.map",
+    "runtime-main.js": "/nk-entertainers/static/js/runtime-main.d1cc9fd0.js",
+    "runtime-main.js.map": "/nk-entertainers/static/js/runtime-main.d1cc9fd0.js.map",
+    "static/js/2.ab7c2310.chunk.js": "/nk-entertainers/static/js/2.ab7c2310.chunk.js",
+    "static/js/2.ab7c2310.chunk.js.map": "/nk-entertainers/static/js/2.ab7c2310.chunk.js.map",
+    "index.html": "/nk-entertainers/index.html",
+    "precache-manifest.b33d33f533efd6c75128004c87d6ab97.js": "/nk-entertainers/precache-manifest.b33d33f533efd6c75128004c87d6ab97.js",
+    "service-worker.js": "/nk-entertainers/service-worker.js",
+    "static/css/main.834f5f03.chunk.css.map": "/nk-entertainers/static/css/main.834f5f03.chunk.css.map",
+    "static/js/2.ab7c2310.chunk.js.LICENSE.txt": "/nk-entertainers/static/js/2.ab7c2310.chunk.js.LICENSE.txt",
+    "static/media/bg.jpeg": "/nk-entertainers/static/media/bg.a618539a.jpeg",
+    "static/media/img1.jpg": "/nk-entertainers/static/media/img1.8f6488df.jpg",
+    "static/media/img3.jpg": "/nk-entertainers/static/media/img3.cb9e9ea1.jpg",
+    "static/media/img4.jpg": "/nk-entertainers/static/media/img4.f8dd2cd0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1cc9fd0.js",
+    "static/js/2.ab7c2310.chunk.js",
+    "static/css/main.834f5f03.chunk.css",
+    "static/js/main.75fcf7d6.chunk.js"
+  ]
+}
