@@ -1,18 +1,20 @@
 import React from 'react';
 import "./Home.scss";
 import backGroundImage from '../assets/bg.jpeg'
+import Hero from './Home/Hero';
+import Works from './Home/Works';
+import Connect from './Home/Connect';
+import Contact from './Home/Contact';
+import Footer from './Home/Footer';
 
 const HomePage = () => {
     return (
         <div id="homePage">
-            <img src={backGroundImage} alt="" className="bg"/>
-            <div className="content">
-                <div className="left">
-                    <h3>Making films is our</h3>
-                    <h1>PASSION</h1>
-                    <a href="#" className="call-to-action">Visit our YouTube channel</a>
-                </div>
-            </div>
+            <Hero></Hero>
+            <Works></Works>
+            <Connect></Connect>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 }

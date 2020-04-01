@@ -1,4 +1,4 @@
-#homePage{
+#Hero{
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -47,4 +47,68 @@
         }
     }
     
+}
+
+
+#Works{
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        .card{
+            margin: 10px;
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.233) 3px 3px 8px;
+            border-radius: 5px;
+            // height: 250px;
+            img{
+                width: 100%;
+            }
+
+            p{
+                margin: 10px;
+            }
+        }
+    }
+}
+
+
+#Connect{
+    .social{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+
+        .icons-btn{
+            i{
+                font-size: 3.3em;
+            }
+        }
+    }
+}
+
+
+#Footer{
+    background: linear-gradient(#0a3d62 0%, #192a56 100%);
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: #fff;
+        margin: 0;
+
+        span{       
+            background: #3c40c6;
+            padding: 5px 10px;
+            border-radius: 50px;
+
+            a{
+                color: #fff;
+                 text-decoration: none;
+            }
+        }
+    }
+
 }

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
 
 
 *{
@@ -8,4 +10,43 @@
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.title-text{
+  text-align: center;
+  color: rgb(93, 93, 93);
+  position: relative;
+  display: inline;
+  margin: auto;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+.title-text::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #0A79DF;
+  height: 3px;
+}
+
+.fa-facebook-square{
+  color: #3B5998;
+}
+.fa-twitter{
+  color: #00ACEE;
+}
+.fa-instagram{
+background: linear-gradient(#f58529 0%, #feda77 27.28%, #dd2a7b 65.49%, #8134af 86.22%, #515bd4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
