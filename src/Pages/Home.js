@@ -10,7 +10,7 @@ import Footer from './Home/Footer';
 const HomePage = () => {
     return (
         <div id="homePage">
-            <Hero></Hero>
+            <Hero/>
             <Works></Works>
             <Connect></Connect>
             <Contact></Contact>
